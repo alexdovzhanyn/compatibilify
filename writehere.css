@@ -1,20 +1,20 @@
 body {
   margin-top: 10px;
   -webkit-margin-top: 10px; 
-  -moz-margin-top: 10px;
-  -ms-margin-top: 10px;
+  -moz-margin-top: 10px; 
+  -ms-margin-top: 10px; 
   -o-margin-top: 10px;
   font-size: 16vw;
-  -webkit-font-size: 16vw;
-  -moz-font-size: 16vw;
-  -ms-font-size: 16vw;
+  -webkit-font-size: 16vw; 
+  -moz-font-size: 16vw; 
+  -ms-font-size: 16vw; 
   -o-font-size: 16vw;
 }
 
 h1 {
   width: 200px;
-  -webkit-width: 200px;
-  -moz-width: 200px;
-  -ms-width: 200px;
+  -webkit-width: 200px; 
+  -moz-width: 200px; 
+  -ms-width: 200px; 
   -o-width: 200px;
 }
