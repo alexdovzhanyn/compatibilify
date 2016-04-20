@@ -42,4 +42,5 @@ File.open(fileName, "r+") do |file|
   end
   file.write("}")
   puts "Compatted #{@numLines} Lines"
+  puts "#{fileName} now has #{@text.length} lines"
 end
