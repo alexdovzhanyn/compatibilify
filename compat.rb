@@ -2,7 +2,7 @@
 
 fileName = ARGV.first
 @text = []
-@measurements = ["px", "%", "vw", "vh", "em", "pt"]
+@measurements = ["px", "%", "vw", "vh"]
 @numLines = 0
 @prefixes = ["-webkit-", "-moz-", "-ms-", "-o-"]
 @prevLine = ""
@@ -10,6 +10,7 @@ fileName = ARGV.first
 def compat(writeLine)
   writeLine = "\s\s-webkit-#{writeLine.strip} \n\s\s-moz-#{writeLine.strip} \n\s\s-ms-#{writeLine.strip} \n\s\s-o-#{writeLine.strip}\n"
   @text << writeLine
+  puts "Wrote #{writeLine}"
   @numLines += 1
 end
 
